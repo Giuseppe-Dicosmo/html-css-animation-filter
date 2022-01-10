@@ -86,4 +86,50 @@
   transform: scale(1.5);
 }
 
+/* esercizio 10 */
+.ex-10-icon{
+  animation: move1 2s infinite linear;
+}
+
+@keyframes move1 {
+  from { transform: rotate(0deg) }
+  to { transform: rotate(360deg) }
+}
+
+/* esercizio 11 */
+.ex-11-icon{
+  animation: move2 2s infinite alternate linear;
+}
+
+@keyframes move2 {
+  from { transform: rotate(0deg) }
+  to { transform: rotate(270deg) }
+}
+
+/* esercizio 12 */
+a:hover .ex-12-top-white {
+  animation: move-left-12 2s infinite alternate linear;
+}
+
+@keyframes move-left-12 {
+  from { left: 10%; }
+  50% { left: 75%; }
+  to { left: -10%; }
+
+}
+
+a:hover .ex-12-bottom-white {
+  animation: move-right-12 2s infinite alternate linear;
+}
+
+@keyframes move-right-12 {
+  from { right: 10%; }
+  50% { right: 75%; }
+  to { right: -10%; }
+}
+
+
+
+
+
 
